@@ -47,12 +47,25 @@
    
 }
 
-.btn-primary {
+#btn{
     width: 260px;
     font-weight: 500;
 }
 
-.btn-light {
-    width: 260px;
-    font-weight: 500;
+
+.card.card-overlay-img {
+    height: 350px; 
+    border: none; 
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-overlay-img .card-body {
+    height: 100%;
+    
+}
+
+.bottom-left-content {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
