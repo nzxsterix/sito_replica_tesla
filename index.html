@@ -15,7 +15,6 @@
         <div class="container-fluid">
             <a class="navbar-brand d-flex align-items-center" href="#">
                 <img src="./img/Tesla.png" alt="Brand" class="logo-tesla">
-                
             </a>
 
                 <!-- Hamburgher menu  -->
@@ -36,19 +35,77 @@
 
                 <ul class="navbar-nav align-items-start item_right ">
 
-                      <li class="nav-item"><a class="nav-link text-dark mx-2" href="#">VEICOLI</a></li>
+                <li class="nav-item"><a class="nav-link text-dark mx-2" href="#">VEICOLI</a></li>
                 <li class="nav-item"><a class="nav-link text-dark mx-2" href="#">ENERGIA</a></li>
                 <li class="nav-item"><a class="nav-link text-dark mx-2" href="#">RICARICA</a></li>
                 <li class="nav-item"><a class="nav-link text-dark mx-2" href="#">SCOPRIRE</a></li>
                 <li class="nav-item"><a class="nav-link text-dark mx-2" href="#">SHOP</a></li>
                 <li class="nav-item"><a class="nav-link text-dark mx-2" href="#"><i class="fa-solid fa-circle-question"></i>ASSISTENZA</a></li>
-                <li class="nav-item"><a class="nav-link text-dark mx-2" href="#"><i class="fa-solid fa-globe"></i> ITALY</a></li>
+                <li class="nav-item"><a class="nav-link text-dark mx-2" href="#"><i class="fa-solid fa-globe"></i>ITALY</a></li>
                 <li class="nav-item"><a class="nav-link text-dark mx-2" href="#"><i class="fa-solid fa-user"></i> ACCOUNT</a></li>
 
                 </ul>
+
             </div>
+
         </div>
+
     </nav>
+
+<section class="hero-section position-relative" id="hero-carousel-section">
+    
+    <div id="heroCarousel" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="5000">
+        
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+
+        <div class="carousel-inner h-100">
+            
+            <div class="carousel-item active h-100" data-slide-id="model-y">
+                
+                <div class="hero-content d-flex flex-column justify-content-between text-center">
+                    <div class="hero-text">
+                        <h1 class="text-white mb-5">Model Y</h1>
+                    </div>
+                    
+                    <div class="d-flex flex-column flex-md-row justify-content-center mb-5">
+                        <a href="#" class="btn btn-primary btn-lg mb-3 mb-md-0 mx-3">Ordina ora</a>
+                        <a href="#" class="btn btn-light btn-lg mx-3">Test drive</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-item h-100" data-slide-id="model-3">
+                
+                <div class="hero-content d-flex flex-column justify-content-between text-center">
+                    <div class="hero-text">
+                        <h1 class="text-white mb-5">Model 3</h1>
+                    </div>
+                    
+                    <div class="d-flex flex-column flex-md-row justify-content-center mb-5">
+                        <a href="#" class="btn btn-primary btn-lg mb-3 mb-md-0 mx-3">Ordina ora</a>
+                        <a href="#" class="btn btn-light btn-lg mx-3">Test drive</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
