@@ -74,9 +74,12 @@
 }
 
 .custom-color {
-    background-color: rgba(189, 188, 188, 0.459);
+    background-color: #F5F5F5;
 }
 
+.colorbtn {
+    background-color: white;
+}
 
 .card {
     position: relative; 
