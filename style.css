@@ -100,3 +100,16 @@
     left: 0;
     padding: 0; 
 }
+
+.offerta {
+    font-size: 12px;
+}
+
+.policy {
+    display: flex;
+    font-size: 10px;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-bottom: 0;
+}
