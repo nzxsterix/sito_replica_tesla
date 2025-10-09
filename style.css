@@ -40,11 +40,11 @@
 }
 
 #heroCarousel .carousel-item[data-slide-id="model-y"] {
-    background-image: url('./img/model-y.avif');
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Promo-Carousel-Model-Y-Performance-Desktop-EMEA.png');
 }
 
 #heroCarousel .carousel-item[data-slide-id="model-3"] {
-    background-image: url('./img/model3.avif');
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Promotional-Carousel-Model-3-Desktop-US.png');
 }
 
 .hero-content {
