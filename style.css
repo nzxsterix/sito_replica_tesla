@@ -16,6 +16,13 @@
     margin-left: auto;
 }
 
+#heroCarousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transition: none;
+}
+
 .hero-section {
     height: 70vh;
     position: relative;
@@ -107,4 +114,9 @@
     justify-content: center;
     flex-wrap: wrap; 
     margin-bottom: 0;
+}
+
+.nodec {
+    text-decoration: none;
+    color: black;
 }
